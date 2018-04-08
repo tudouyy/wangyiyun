@@ -1,0 +1,183 @@
+body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, div {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+input {
+  outline: none;
+  border: none; }
+
+em {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal; }
+
+i {
+  font-style: normal; }
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  background: #f3f4f6; }
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99; }
+  header .top {
+    width: 100%;
+    height: 0.54rem;
+    background: #d33a32; }
+    header .top a {
+      display: block; }
+      header .top a img {
+        display: block;
+        width: 0.3rem;
+        width: 0.3rem; }
+  header .bot {
+    width: 100%;
+    height: 0.4rem;
+    background: #feffff; }
+    header .bot a {
+      display: block;
+      width: 0.7rem;
+      height: 0.36rem;
+      line-height: 2.5;
+      text-align: center;
+      font-size: 14px;
+      color: #484948;
+      border-bottom: 3px solid #feffff; }
+    header .bot .active {
+      color: #cc3930;
+      border-bottom: 3px solid #e82316; }
+
+section {
+  width: 100%; }
+  section .section {
+    width: 100%;
+    height: 0.94rem; }
+  section .top {
+    background: #f2f4f5; }
+    section .top .list {
+      width: 100%;
+      height: 0.6rem;
+      justify-content: space-between; }
+      section .top .list a {
+        display: block;
+        margin-left: 0.14rem; }
+        section .top .list a img {
+          display: block;
+          width: 0.22rem;
+          height: 0.22rem; }
+      section .top .list .right {
+        width: 3.21rem;
+        height: 0.59rem;
+        border-bottom: 2px solid #eceeef; }
+        section .top .list .right p {
+          height: 0.59rem;
+          line-height: 0.59rem;
+          font-size: 16px;
+          color: #222324; }
+          section .top .list .right p span {
+            color: #959697;
+            font-size: 13px; }
+  section .bot .title {
+    width: 100%;
+    height: 0.33rem;
+    background: #e7e9e9;
+    justify-content: space-between; }
+    section .bot .title .left {
+      height: 0.33rem;
+      margin-left: 0.1rem;
+      display: flex;
+      align-items: center; }
+      section .bot .title .left img {
+        display: block;
+        margin-right: 12px; }
+      section .bot .title .left img:nth-child(1) {
+        width: 0.14rem;
+        height: 0.07rem; }
+      section .bot .title .left img:nth-child(2) {
+        width: 0.07rem;
+        height: 0.14rem; }
+      section .bot .title .left .none {
+        display: none; }
+      section .bot .title .left span {
+        display: block;
+        color: #959697;
+        font-size: 13px; }
+    section .bot .title .right {
+      margin-right: 0.18rem;
+      display: block;
+      width: 0.2rem;
+      height: 0.2rem; }
+  section .bot .like {
+    width: 100%;
+    height: 0.6rem;
+    justify-content: space-between; }
+    section .bot .like .left {
+      display: block;
+      width: 0.57rem;
+      height: 0.57rem;
+      margin-right: 14px; }
+    section .bot .like .right {
+      width: 3.21rem;
+      height: 0.59rem;
+      border-bottom: 2px solid #eceeef;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      section .bot .like .right p {
+        margin-top: 16px;
+        font-size: 16px;
+        color: #222324;
+        display: block; }
+        section .bot .like .right p span {
+          margin-top: 3px;
+          display: block;
+          color: #959697;
+          font-size: 13px; }
+          section .bot .like .right p span i {
+            display: inline-block;
+            width: 0.15rem;
+            height: 0.15rem;
+            background: #3faae4;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+            line-height: 1.1;
+            margin-right: 7px; }
+      section .bot .like .right .more {
+        display: block;
+        width: 0.04rem;
+        height: 0.14rem;
+        margin-right: 0.26rem; }

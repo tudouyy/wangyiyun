@@ -1,0 +1,246 @@
+body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, div {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+input {
+  outline: none;
+  border: none; }
+
+em {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal; }
+
+i {
+  font-style: normal; }
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden; }
+
+body {
+  background: #f3f4f6; }
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99; }
+  header .top {
+    width: 100%;
+    height: 0.54rem;
+    background: #d33a32; }
+    header .top a {
+      display: block; }
+      header .top a img {
+        display: block;
+        width: 0.3rem;
+        width: 0.3rem; }
+  header .bot {
+    width: 100%;
+    height: 0.4rem;
+    background: #feffff; }
+    header .bot a {
+      display: block;
+      width: 0.7rem;
+      height: 0.36rem;
+      line-height: 2.5;
+      text-align: center;
+      font-size: 14px;
+      color: #484948;
+      border-bottom: 3px solid #feffff; }
+    header .bot .active {
+      color: #cc3930;
+      border-bottom: 3px solid #e82316; }
+
+section {
+  width: 100%;
+  margin-top: 0.94rem; }
+  section .rotate {
+    width: 100%;
+    height: 1.73rem;
+    position: relative;
+    overflow: hidden; }
+    section .rotate .carousel-list {
+      height: 1.73rem;
+      position: absolute;
+      left: 0;
+      top: 0; }
+      section .rotate .carousel-list li {
+        height: 1.73rem;
+        float: left; }
+        section .rotate .carousel-list li img {
+          height: 1.73rem; }
+    section .rotate .dots {
+      position: absolute;
+      bottom: 0.15rem;
+      left: 1.7rem;
+      width: 1rem; }
+      section .rotate .dots a {
+        display: inline-block;
+        float: left;
+        width: 0.07rem;
+        height: 0.07rem;
+        border-radius: 50%;
+        margin-right: 6px;
+        background: #6e6b6a; }
+      section .rotate .dots .active {
+        background: #b63b34; }
+  section .list {
+    width: 100%;
+    height: 1.06rem;
+    border-bottom: 1px solid #ebecee; }
+    section .list a {
+      display: block;
+      font-size: 14px;
+      color: #111312;
+      text-align: center; }
+      section .list a img {
+        display: block;
+        width: 0.54rem;
+        margin-bottom: 7px; }
+  section .List {
+    width: 100%; }
+    section .List .tit {
+      width: 100%;
+      height: 0.6rem;
+      line-height: 4;
+      font-size: 16px;
+      color: #1c1e1c;
+      background: #f3f4f6; }
+      section .List .tit .bg1 {
+        display: inline-block;
+        width: 0.03rem;
+        height: 0.16rem;
+        margin-right: 7px; }
+      section .List .tit .bg2 {
+        display: inline-block;
+        width: 0.1rem;
+        height: 0.16rem;
+        margin-left: 7px; }
+    section .List .content {
+      width: 100%;
+      background: #ffffff;
+      justify-content: space-between; }
+    section .List .recomm li {
+      width: 33%; }
+      section .List .recomm li a {
+        display: block; }
+        section .List .recomm li a img {
+          display: block;
+          width: 1.24rem;
+          height: 1.18rem; }
+      section .List .recomm li p {
+        height: 0.6rem;
+        line-height: 2;
+        padding: 5px;
+        font-size: 13px;
+        color: #0d0f0e;
+        box-sizing: border-box; }
+    section .List .exclus li {
+      width: 50%; }
+      section .List .exclus li a {
+        display: block; }
+        section .List .exclus li a img {
+          display: block;
+          width: 1.86rem;
+          height: 1rem; }
+      section .List .exclus li p {
+        height: 0.6rem;
+        line-height: 2;
+        padding: 5px;
+        font-size: 13px;
+        color: #0d0f0e;
+        box-sizing: border-box; }
+    section .List .select {
+      justify-content: space-between;
+      width: 100%;
+      height: 0.8rem;
+      border-top: 2px solid #edeef0; }
+      section .List .select .left {
+        display: block;
+        width: 54%;
+        height: 0.8rem;
+        margin-left: 3.6%;
+        background: url(../imgs/icon06.png) no-repeat 0.03rem 0.16rem;
+        background-size: 0.32rem 0.17rem; }
+        section .List .select .left p {
+          text-indent: 0.4rem;
+          height: 0.5rem;
+          margin-top: 0.11rem;
+          line-height: 1.8;
+          font-size: 13px;
+          color: #0d0f0e; }
+        section .List .select .left span {
+          display: block;
+          height: 0.2rem;
+          font-size: 12px;
+          color: #7c7d7f; }
+      section .List .select .right {
+        display: block;
+        width: 33.3%; }
+        section .List .select .right img {
+          display: block;
+          width: 100%;
+          height: 0.8rem; }
+    section .List .last {
+      border-bottom: 2px solid #edeef0; }
+  section .here {
+    width: 100%;
+    background: #f3f4f6; }
+    section .here a {
+      display: block;
+      width: 100%; }
+      section .here a img {
+        display: block;
+        width: 100%;
+        height: 1.46rem; }
+    section .here p {
+      height: 0.6rem;
+      line-height: 2;
+      padding: 5px;
+      font-size: 13px;
+      color: #0d0f0e;
+      box-sizing: border-box; }
+  section .order {
+    width: 100%;
+    height: 0.84rem;
+    background: #f3f4f6;
+    justify-content: center; }
+    section .order a {
+      display: block;
+      width: 27%;
+      height: 0.27rem;
+      line-height: 0.27rem;
+      font-size: 13px;
+      color: #d33a32;
+      border: 2px solid #d33a32;
+      border-radius: 15px;
+      text-align: center; }

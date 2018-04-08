@@ -1,0 +1,119 @@
+@charset "utf-8";
+body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, div{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+html {
+  font-size: 26.67vw; 
+}
+
+html, body {
+  height: 100%; 
+}
+
+ul,ol{
+    list-style: none
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+em{
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+}
+i{
+    font-style: normal;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    overflow:hidden;
+    visibility: hidden;
+}
+body{
+    background:#ffffff;
+}
+// header
+header{
+    width:100%;
+    height:2.54rem;
+    background:url(../imgs/bg08.png) no-repeat;
+    background-size:100% 2.54rem;
+}
+// section
+section{
+    width:100%;
+    .input{
+        width:100%;
+        a{
+            display:block;
+            width:80%;
+            height:0.4rem;
+            font-size:16px;
+            color:#cd3a3b;
+            border:2px solid #cd3a3b;
+            border-radius:18px;
+            text-align: center;
+            line-height: 0.4rem;
+            margin:0 auto;
+            margin-top:0.2rem;
+            margin-bottom:0.13rem;
+        }
+    }
+    .next{
+        width:100%;
+        height:1.3rem;
+        text-align: center;
+        a{
+            display:block;
+            margin:0 auto;
+        }
+        .jour{
+            margin-top:0.18rem;
+            margin-bottom:0.8rem;
+            font-size:14px;
+            color:#3f3f3f;
+            text-decoration: underline;
+        }
+        .other{
+            font-size:13px;
+            color:#585858;
+        }
+    }
+    .last{
+        width:100%;
+        height:1.08rem;
+        a{
+            display: block;
+            text-align: center;
+            img{
+                display:block;
+                width:0.42rem;
+                height:0.42rem;
+                margin-bottom:0.06rem;
+            }
+            span{
+                display:block;
+                color:#ababab;
+                font-size:12px;
+            }
+        }
+    }
+}
